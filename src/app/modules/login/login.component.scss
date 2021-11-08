@@ -1,0 +1,23 @@
+@import '../../core/theme/variables.scss';
+
+:host{
+    .login-container{
+        height: 100vh;
+        width: 100vw;
+        mat-card{
+            color: #333;
+            width: 40%;
+            .mat-card-content{
+                margin-top: 32px;
+            }
+            h1{
+                font-weight: 700;
+                margin-bottom: 6px;
+            }
+            .subtitle-login{
+                color: #999;
+                font-weight: 500;
+            }
+        }
+    }
+}
